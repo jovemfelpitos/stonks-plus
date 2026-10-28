@@ -1,25 +1,40 @@
-Stonks+
+# Stonks+
 
-Este projeto é o Stonks+, uma plataforma de streaming que oferece uma ampla variedade de filmes, séries, animações e esportes para os usuários desfrutarem. Além disso, os usuários têm a opção de baixar o conteúdo para assistir offline posteriormente. O serviço é acessível em várias plataformas, como celular, tablet, computador e TV.
+Landing page de um serviço fictício de streaming, criada para praticar composição de páginas e CSS responsivo.
 
-Recursos
+**HTML · CSS · Grid · Flexbox**
 
-Catálogo diversificado de filmes, séries, animações e esportes.
-Possibilidade de assistir ao conteúdo offline, baixando os arquivos para o dispositivo.
-Interface responsiva que se adapta a diferentes plataformas, incluindo celular, tablet, computador e TV.
-Utilização de tecnologias web modernas, como HTML, CSS, Flexbox e Grid.
-O uso de imagens de outros sites de streaming foi estritamente para fins de estudo e ensino.
+**Estado:** Estudo de interface — legado.
 
-Tecnologias Utilizadas
+![Stonks+ — desktop](docs/images/desktop.jpg)
 
-As seguintes tecnologias foram utilizadas para construir este site:
+Capturas reais da interface servida localmente. As imagens apresentam o estado atual do código.
 
-HTML CSS 
+<details>
+<summary>Ver no celular</summary>
 
-Acesse o projeto online por aqui:
+Captura da interface no celular.
 
-https://stonks-plus.vercel.app/
+<img src="docs/images/mobile.jpg" alt="Stonks+ — celular" width="320">
 
-Feito por:
+</details>
 
-felpitos
+## O que demonstra
+
+Seções comerciais, planos ilustrativos, apresentação de dispositivos e layout adaptável.
+
+## Executar localmente
+
+Na pasta do projeto, inicie um servidor estático:
+
+```bash
+python -m http.server 8000
+```
+
+Abra `http://localhost:8000`. Não há etapa de build.
+
+[Endereço histórico da demonstração](https://stonks-plus.vercel.app/)
+
+## Escopo
+
+Este repositório contém uma página estática. Reprodução de vídeos, download de conteúdo, contas, cobrança e assinaturas não foram implementados. Preços e ofertas são fictícios. As imagens foram utilizadas em um exercício de estudo.
